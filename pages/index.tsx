@@ -9,8 +9,10 @@ import live1 from "/public/static/images/logo/live-sports-logo-1.png"
 import live2 from "/public/static/images/logo/live-sports-logo-2.png"
 import live3 from "/public/static/images/logo/live-sports-logo-3.svg"
 import live4 from "/public/static/images/logo/live-sports-logo-4.png"
+import withApollo from "@/lib/withApollo"
+import { getDataFromTree } from "@apollo/client/react/ssr"
 
-function Landing() {
+const Landing = () => {
   const router = useRouter()
 
   return (
@@ -193,4 +195,4 @@ function Landing() {
   )
 }
 
-export default Landing
+export default withApollo(Landing, { getDataFromTree })
