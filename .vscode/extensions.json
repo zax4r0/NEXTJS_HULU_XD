@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "dracula-theme.theme-dracula",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "shan.code-settings-sync",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "graphql.vscode-graphql",
+    "wix.vscode-import-cost",
+    "prisma.prisma",
+    "bradlc.vscode-tailwindcss",
+    "redhat.vscode-yaml"
+  ]
+}
