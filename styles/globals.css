@@ -4,8 +4,9 @@
 
 @layer base {
   body {
-    @apply bg-[#06202A] text-gray-300;
+    @apply bg-gradient-to-b from-gray-900 via-[#0B0F18] to-gray-900;
   }
+  /* bg-gradient-to-r bg-[#251A45] via-[#202447] to-[#162D47]   text-gray-300; */
 }
 
 /* well sometimes adding any one not worked on my machine so added all lol  */

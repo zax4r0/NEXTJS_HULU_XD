@@ -33,7 +33,7 @@ const Home = () => {
         <Header />
         <div className="px-5 my-10 sm:grid md:grid-cols-3 xl:grid-cols-3  3xl:flex flex-wrap justify-center transition-all duration-300 ">
           {data.feed.map(post => (
-            <div key={post.id} className="post">
+            <div key={post.id} className="post ">
               <Post post={post} />
             </div>
           ))}

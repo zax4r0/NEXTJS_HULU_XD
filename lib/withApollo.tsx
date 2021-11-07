@@ -14,6 +14,7 @@ const withApollo = nextWithApollo(
       ssrMode: typeof window === "undefined",
       link: new HttpLink({
         uri: "https://nextjs-hulu-xd.vercel.app/api",
+        // uri: "http://localhost:3000/api",
         credentials: "include",
       }),
       headers: {

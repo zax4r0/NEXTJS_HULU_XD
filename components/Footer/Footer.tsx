@@ -1,8 +1,6 @@
 function Footer() {
   return (
     <div className="select-none">
-      <hr className="h-px my-6 text-white hover:text-green-400" />
-
       <footer className="bg-gray-200 text-black">
         <div className="p-10 max-w-1100 m-auto">
           <div className="flex flex-col md:flex-row justify-between">

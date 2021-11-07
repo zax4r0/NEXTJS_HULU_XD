@@ -24,6 +24,7 @@ function BaseLayout({ children, Icon, description, title, path }) {
           content="Stream TV and Movies Live and Online | Hulu"
         />
       </Head>
+
       {children}
     </>
   )
